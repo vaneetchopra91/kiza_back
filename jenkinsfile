@@ -6,7 +6,7 @@ pipeline {
     }
     
     tools {
-        nodejs 'nodemeriha'
+        nodejs 'node meri ha'
     }
     triggers {
         pollSCM('H/2 * * * *') // Check every 5 minutes for changes
@@ -40,6 +40,7 @@ pipeline {
         }
         failure {
             echo '❌ Something went wrong. Please check the logs.'
-        }
-    }
+        }
+    }
 }
+// ...removed extra closing bracket here...
