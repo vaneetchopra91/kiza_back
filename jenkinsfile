@@ -6,7 +6,7 @@ pipeline {
     }
     
     tools {
-        nodejs 'node meri ha'
+        nodejs '24.4.1'
     }
     triggers {
         pollSCM('H/2 * * * *') // Check every 5 minutes for changes
